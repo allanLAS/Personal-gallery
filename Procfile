@@ -1,1 +1,1 @@
-web: gunicorn 'al-gallery'.wsgi
+web: gunicorn 'galleryapp'.wsgi
