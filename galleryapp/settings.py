@@ -93,12 +93,12 @@ WSGI_APPLICATION = 'galleryapp.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': 
+    'default': {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME':'pics',
     'USER':'allan',
     'PASSWORD':'1234',
-    )
+    }
 }
 
 db_from_env = dj_database_url.config(conn_max_age=500)
