@@ -17,11 +17,11 @@ def search_results(request):
         searched_articles = Article.search_by_title(search_term)
         message = f"{search_term}"
 
-        return render(request, 'templates/search.html',{"message":message,"images": searched_images})
+        return render(request, 'search.html',{"message":message,"images": searched_images})
 
     else:
         message = "You haven't searched for any term"
-        return render(request, 'templates/search.html',{"message":message})
+        return render(request, 'search.html',{"message":message})
 
 # def pics_today(request):
 #     date = dt.date.today()
