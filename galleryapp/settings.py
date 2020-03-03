@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 import django_heroku
 import dj_database_url
-from decouple import config
+
 
 
 # development
@@ -33,8 +33,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = '40683j$@r)%p5+j8mdf_ct_epbrvkjs9p-%j&$ofd3f**!=lq^'
 
-
+DEBUG = True
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
@@ -52,7 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'whitenoise.middleware.WhiteNoiseMiddleware'
+    
 
 ]
 
