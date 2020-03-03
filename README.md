@@ -1,4 +1,4 @@
-# PITCH
+# PERSONAL GALLERY
 This is a personal blog app that allows a user to upload images in various categories.
 
 # Author
