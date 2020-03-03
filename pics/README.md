@@ -30,10 +30,8 @@ You will need to:
  
     $ git clone <repository_url>
 
-
-# Code Beat
-
-[![codebeat badge](https://codebeat.co/badges/b07f02aa-feea-492c-ad3d-21e26918f022)](https://codebeat.co/projects/github-com-allanlas-blog-master)
+# code beat
+[![codebeat badge](https://codebeat.co/badges/ddb5125a-1fa5-4f18-9d8e-621e9c4e4bad)](https://codebeat.co/projects/github-com-allanlas-personal-gallery-master)
 
 # License
 [LICENSE](LICENSE)
